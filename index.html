@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body style="background-color:rgba(0, 195, 255, 0.3)">   
+      <div class="card" style="width: 18rem;">
+        <img src="Q.jpg" class="card-img-top" alt="qhizer-shareef">
+        <div class="card-body">
+          <h5 class="card-title">SELECT Prayers: <span>Date</span></h5>
+       <form action="PUT"> 
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1" value="off" name="Fajar">
+            <label class="custom-control-label" for="customSwitch1">1   </label>
+        </div>
+          <li class="alert alert-primary" role="alert">Fajar</li>
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch2" value="off" name="Zohar">
+            <label class="custom-control-label" for="customSwitch2">2   </label>
+        </div>
+          <li class="alert alert-primary" role="alert">Zohar</li>
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch3" value="off" name="Asar">
+            <label class="custom-control-label" for="customSwitch3">3   </label>
+          </div>
+          <li class="alert alert-success" role="alert">Asar</li>
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch4" value="off" name="Maghrib">
+            <label class="custom-control-label" for="customSwitch4">4   </label>
+          </div>
+          <li class="alert alert-primary" role="alert">Maghrib</li>
+          <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="customSwitch5" value="off"name="Isha">
+            <label class="custom-control-label" for="customSwitch5">5   </label>
+          </div>
+          <li class="alert alert-primary" role="alert">Isha</li>
+      
+        <div class="card-body">
+          <a href="#" class="card-link">Check Your Stat</a>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>  
+      </div>
+      </div>
+      <!--Alert user with color if he presses it on-->
+    <script src="app.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.10.0/firebase-database.js"></script>
+<script src="firebase.js"></script>
+</body>
+</html>
+<style>
+    body{
+        margin:0;
+    }
+.card{   
+    margin: 0 auto;
+}
+.card-body{
+    display:inline-block;
+
+}
+</style>
